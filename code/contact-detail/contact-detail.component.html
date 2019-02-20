@@ -1,0 +1,40 @@
+<div class="text">
+  <h1>Contact</h1>
+  <p> Wings PG<br>
+    20/20,Apj Street,<br>
+    Dream Land,<br>
+    Covai.<br>
+    Phone:(090)1111 2222<br>
+    Email: <span>weunit@mail.com</span><br>
+  </p>
+</div>
+<br>
+
+<div class="container">
+  <h1>Contact Form</h1>
+
+  <form>
+    <div>
+      <label for="name">Your Name </label>
+      <input style="margin-left:10px" [(ngModel)]="this.contacting.name" [ngModelOptions]="{standalone: true}">
+    </div>
+
+    <div>
+      <label for="mail">Your Mail </label>
+      <input type="email" style="margin-left:22px" [(ngModel)]="this.contacting.mail" [ngModelOptions]="{standalone: true}">
+    </div>
+
+    <div>
+      <label for="mobile">Mobile No </label>
+      <input style="margin-left:16px" [(ngModel)]="this.contacting.mobile" [ngModelOptions]="{standalone: true}">
+    </div>
+
+    <div>
+      <label for="message">Your Comments</label><br>
+      <textarea [(ngModel)]='this.contacting.message' rows="5" cols="32" [ngModelOptions]="{standalone: true}">
+  </textarea>
+    </div>
+
+    <button type="submit" value="Submit" class="btn btn-primary" width="48" height="48" (click)="goContact()">submitNow</button>
+  </form>
+</div><br>

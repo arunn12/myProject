@@ -1,0 +1,28 @@
+<p>Login Form</p>
+<!-- <div class="logn">
+  <div>
+    <label for="name">UserName </label>
+    <input style="margin-left:10px" [(ngModel)]="this.loggin.name" [ngModelOptions]="{standalone: true}">
+  </div><br>
+
+  <div>
+        <label for="password">Password </label>
+    <input style="margin-left:10px" type="password" [(ngModel)]="this.loggin.password" [ngModelOptions]="{standalone: true}">
+  </div><br>
+
+  <div>
+    <button type="submit" value="Submit" class="btn btn-primary" width="48" height="48" (click)="goAdmin()">submitNow</button>
+  </div><br>
+</div> -->
+<mat-card class="log">
+  <mat-form-field>
+    <input [(ngModel)]="this.loggin.name" matInput placeholder="Enter the user name">
+  </mat-form-field><br>
+
+
+  <mat-form-field>
+    <input type="password" [(ngModel)]="this.loggin.password" matInput placeholder="Enter the password">
+  </mat-form-field><br>
+
+  <button mat-raised-button color='accent' (click)="goAdmin()">submit</button><br>
+</mat-card>

@@ -1,0 +1,53 @@
+h1{
+color:white;
+font-size: 30px;
+text-align:center;
+background-color:cadetblue;
+}
+
+
+.text-block {
+ position: left;
+    width: 25%;
+    top:  100px;
+    left: 100px;
+    text-align:left;
+    background-color:Cadetblue;
+    color: white;
+    font-size:20;
+    padding-left:39px;
+    padding-right:39px;
+}
+
+.buttonn{
+   color:white;
+   width: 50%;
+   text-align:center;
+   background-color:Cadetblue;
+   position: fixed;
+   left: 50%;
+   top: 25%;
+   }
+
+.buttons{
+color:white;
+width: 50%;
+text-align:center;
+background-color:Cadetblue;
+position: fixed;
+left: 50%;
+top: 40%;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0%;
+   width: 100%;
+   background-color: Cadetblue;
+   color: white;
+   text-align: center;
+   font-size:15px;
+}
+

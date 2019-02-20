@@ -1,0 +1,51 @@
+<h1>Booking Form</h1>
+<mat-card class="book" style="margin-top:5%;margin-bottom:55%;margin-left:5%;margin-right:60%;">
+  <mat-form-field>
+    <input [(ngModel)]="this.book.name" matInput placeholder="Enter Your name">
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <input [(ngModel)]="this.book.regno" matInput placeholder="Enter your HSC RegisterNo">
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <input [(ngModel)]="this.book.total" matInput placeholder="Enter your HSC Total Mark">
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <input [(ngModel)]="this.book.schname" matInput placeholder="Enter your School Name">
+  </mat-form-field><br>
+
+  <mat-form-field> 
+    <select matNativeControl required [(ngModel)]="this.book.dept" placeholder="choose the dept">
+    <option value="cse">CSE</option>
+    <option value="ece">ECE</option>
+    <option value="it">IT</option>
+    </select> 
+  </mat-form-field><br>
+    
+  
+  <mat-form-field>
+    <input [(ngModel)]="this.book.mail" matInput placeholder="Enter your Email">
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <input [(ngModel)]="this.book.mobile" matInput placeholder="Enter your MobileNo">
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <input [(ngModel)]="this.book.city" matInput placeholder="City">
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <input [(ngModel)]="this.book.post" matInput placeholder="Post">
+  </mat-form-field><br>
+
+  <mat-form-field>
+    <input [(ngModel)]="this.book.country" matInput placeholder="Country">
+  </mat-form-field><br>
+
+  <button mat-raised-button color='accent' (click)="goBook()">RegisterNow</button>
+  <app-alerts></app-alerts>
+  
+</mat-card>

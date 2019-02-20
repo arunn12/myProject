@@ -1,0 +1,25 @@
+    .text {
+        position: left;
+           width: 30%;
+           top:  100px;
+           left: 100px;
+           text-align:left;
+           background-color:CadetBlue;
+           color: white;
+           font-size:20;
+           padding-left:39px;
+           padding-right:39px;
+       }
+       
+     .container {
+    position: left;
+       width: 30%;
+       top:  100px;
+       left: 100px;
+       text-align:left;
+       background-color:CadetBlue;
+       color: white;
+       font-size:20;
+       padding-left:39px;
+       padding-right:39px;
+   }

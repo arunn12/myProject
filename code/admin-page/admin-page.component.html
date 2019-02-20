@@ -1,0 +1,36 @@
+<h1>ADMIN PAGE</h1>
+
+
+<div class="cliks">
+    <p>Click to show the SSLC Students:</p>
+    <button type="submit" value="Submit" class="btn btn-primary" width="48" height="48" (click)="viewBooked()">Click</button>
+</div><br>
+
+<div class="clciks">
+    <p>Click to show the HSC Students:</p>
+    <button type="submit" value="Submit" class="btn btn-primary" width="48" height="48" (click)="viewBook()">Click</button>
+</div><br>
+
+<div class="cllicks">
+    <p>Click to show the messages:</p>
+    <button type="submit" value="Submit" class="btn btn-primary" width="48" height="48" (click)="viewContact()">ClickHere</button>
+</div> <br>
+
+<div class=adroom>
+<h3>Add Room</h3>
+<div>
+    <label for="deptname">Dept Name </label>
+    <input style="margin-left:19px" [(ngModel)]="this.gall.DeptName" [ngModelOptions]="{standalone: true}">
+</div>
+<div>
+    <label for="description">Description </label>
+    <input type="email" style="margin-left:9px" [(ngModel)]="this.gall.Description" [ngModelOptions]="{standalone: true}">
+</div>
+<div>
+    <label for="fees">Fees</label>
+    <input style="margin-left:50px" [(ngModel)]="this.gall.Fees" [ngModelOptions]="{standalone: true}">
+</div>
+<div>
+    <button type="submit" value="Submit" class="btn btn-primary" width="48" height="48" (click)="goGallry()">Add-Now</button>
+</div>
+</div>

@@ -1,0 +1,33 @@
+<h1>ADMIN PAGE</h1>
+<div>
+    <div>
+        <table>
+            <tr>
+                <th> Name </th>
+                <th> RegNo </th>
+                <th> Total </th>
+                <th> SchoolName </th>
+                <th> Department </th>
+                <th> Mail </th>
+                <th> Mobile </th>
+                <th> City </th>
+                <th> Post </th>
+                <th> Country </th>
+            </tr>
+
+            <tr *ngFor="let card of card">
+                <td>{{card.name}}</td>
+                <td>{{card.regno}}</td>
+                <td>{{card.total}}</td>
+                <td>{{card.schname}}</td>
+                <td>{{card.dept}}</td>
+                <td>{{card.mail}}</td>
+                <td>{{card.mobile}}</td>
+                <td>{{card.city}}</td>
+                <td>{{card.post}}</td>
+                <td>{{card.country}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+

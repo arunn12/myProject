@@ -1,0 +1,55 @@
+h1{
+    color:white;
+    font-size: 30px;
+    text-align:center;
+    background-color:cadetblue;
+    }
+ 
+.adroom {
+    position: center;
+       width: 30%;
+       top:  200px;
+       left: 200px;
+       text-align:left;
+       background-color:Cadetblue;
+       color: white;
+       font-size:20;
+       margin-left:21px;
+       padding-top:50px;
+       padding-left:69px;
+       padding-right:69px;
+   }
+
+    .cliks {
+        color:white;
+        width: 50%;
+        text-align:center;
+        background-color:Cadetblue;
+        position: fixed;
+        left: 50%;
+        top: 35%;
+        }
+        
+        .clciks {
+            color:white;
+            width: 50%;
+            text-align:center;
+            background-color:Cadetblue;
+            position: fixed;
+            left: 50%;
+            top: 20%;
+            }
+            
+               
+        
+        
+        .cllicks{
+            color:white;
+            width: 50%;
+            text-align:center;
+            background-color:Cadetblue;
+            position: fixed;
+            left: 50%;
+            top: 10%;
+            }
+        

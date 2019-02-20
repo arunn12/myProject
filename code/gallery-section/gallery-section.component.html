@@ -1,0 +1,14 @@
+
+<h2>List of Rooms</h2><br>
+ <div>          
+        <div class="row">
+        <div class="col-md-4" *ngFor="let rooms of galry">
+            <img src="assets/imgs/img6.jpg"><br>
+            DeptName:{{rooms.DeptName}} <br>
+            Details{{rooms.Description}}<br>
+            Fees{{rooms.Fees}}<br>
+            <p><button class="btn btn-primary" (click)="goBook()">Register Now</button></p>
+       </div>   
+     </div>
+    </div>
+    

@@ -1,0 +1,30 @@
+/* .logn {
+    position: center;
+       width: 30%;
+       top:  200px;
+       left: 200px;
+       text-align:left;
+       background-color:Cadetblue;
+       color: white;
+       font-size:20;
+       margin-left:21px;
+       padding-top:50px;
+       padding-left:69px;
+       padding-right:69px;
+   } */
+
+
+
+   .log {
+background-color:whitesmoke;;
+
+margin-left:35%;
+margin-right:35%;
+margin-top:150px;
+margin-bottom:150px;
+text-align:center; 
+padding-top:50px;
+padding-left:50px;
+padding-right:50px;
+padding-bottom:50px;
+}
